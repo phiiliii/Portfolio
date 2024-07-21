@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.108.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
+    "react-grid-gallery": "^1.0.1",
+    "react-image-lightbox": "^5.1.4",
+    "react-parallax-tilt": "^1.7.232",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-three-fiber": "^6.0.13",
+    "react-tilt": "^1.0.2",
+    "styled-components": "^6.1.12",
+    "three": "^0.166.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,0 +1,69 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .tilt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-element {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a1a1a 0%, #111 100%);
+  }
+  
+  .light {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 80%);
+    animation: move 5s infinite alternate;
+    filter: blur(100px);
+  }
+  
+  .light:nth-child(1) {
+    top: 20%;
+    left: 25%;
+  }
+  
+  .light:nth-child(2) {
+    top: 40%;
+    left: 75%;
+  }
+  
+  .light:nth-child(3) {
+    top: 60%;
+    left: 35%;
+  }
+  
+  .light:nth-child(4) {
+    top: 80%;
+    left: 55%;
+  }
+  
+  .light:nth-child(5) {
+    top: 50%;
+    left: 50%;
+  }
+  
+  
+  @keyframes move {
+    0% {
+      transform: translateY(-20px) translateX(-20px);
+    }
+    100% {
+      transform: translateY(20px) translateX(20px);
+    }
+  }
+  

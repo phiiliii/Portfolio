@@ -1,0 +1,29 @@
+.photo-tile {
+    position: relative; /* Make it relative to position the pseudo-element */
+    overflow: hidden;
+    margin: 20px; /* Center the tile and add margin */
+    max-width: 80%; /* Reduce the width to 80% of the parent container */
+    width: 200px; /* Fixed width for better control */
+    border-radius: 15px; /* Maintain the border radius */
+    box-shadow: 0 4px 8px #0000001a; /* Add shadow */
+}
+
+.photo-tile::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: 20px; /* Ensure the border radius covers the full area */
+    background: linear-gradient(45deg, #e0e0e0, #000000); /* Gradient colors */
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px; /* Ensure inner content has rounded corners */
+}
