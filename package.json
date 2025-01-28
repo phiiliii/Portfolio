@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-spring/three": "^9.7.3",
     "@react-three/drei": "^9.108.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,7 +10,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-grid-gallery": "^1.0.1",
-    "react-image-lightbox": "^5.1.4",
     "react-parallax-tilt": "^1.7.232",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
